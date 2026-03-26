@@ -40,9 +40,54 @@ local translate = {
 
     ["minigundorada"]="goldminigun", ["goldminigun"]="goldminigun",
 
-    ["armarefresco"]="sodagun", ["sodagun"]="sodagun"
-}
+    ["armarefresco"]="sodagun", ["sodagun"]="sodagun",
 
+    -- MUNICIÓN
+    ["municion"]="ammo", ["ammo"]="ammo",
+    ["municionrifle"]="ammoarbasic",
+    ["municionpistola"]="ammopistolbasic",
+    ["municionescopeta"]="ammoshotgunbasic",
+
+    -- HERRAMIENTAS
+    ["linterna"]="basicflashlight_standard",
+    ["linternagrande"]="basicflashlight_big",
+    ["linternaoculta"]="hiddenflashlight_standard",
+    ["linternaocultagrande"]="hiddenflashlight_big",
+
+    ["visionnocturna"]="nightvision",
+    ["mochila"]="basicbackpack",
+    ["martillo"]="buildinghammer",
+    ["mesacrafteo"]="craftingtablet1",
+    ["barrerapinchos"]="spikebarrier",
+    ["trapeador"]="pointymop",
+
+    -- MATERIALES
+    ["tela"]="cloth", ["cloth"]="cloth",
+    ["metal"]="metal",
+    ["madera"]="wood", ["wood"]="wood",
+    ["hacha"]="axe", ["axe"]="axe",
+    ["hachuela"]="hatchet", ["hatchet"]="hatchet",
+    ["trampaoso"]="beartrap", ["beartrap"]="beartrap",
+
+    -- CUBOS
+    ["cuboazul"]="bluecube", ["bluecube"]="bluecube",
+    ["cuboverde"]="greencube", ["greencube"]="greencube",
+    ["cuborojo"]="redcube", ["redcube"]="redcube",
+
+    -- TOKEN
+    ["token"]="singletoken", ["singletoken"]="singletoken",
+
+    -- LLAVES
+    ["llavepuerta"]="frontdoorkey",
+    ["tarjetaelectronica"]="electronicskeycard",
+    ["tarjetamanager"]="managerkeycard",
+
+    -- OTROS
+    ["elfo"]="elfbuddy",
+    ["tabla"]="plank", ["plank"]="plank",
+    ["lanzadornieve"]="snowballlauncher",
+    ["bastondulce"]="candycane"
+}
 -- 🔥 SERVICIOS
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
